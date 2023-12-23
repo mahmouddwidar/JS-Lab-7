@@ -36,7 +36,7 @@ function addHours() {
 addHours();
 
 function addMins() {
-    for (let i = 1; i <= 60; i++) {
+    for (let i = 0; i <= 60; i++) {
         let mins = i < 10 ? "0" + i : i;
         let option = document.createElement("option");
         let texMinute = document.createTextNode(mins);

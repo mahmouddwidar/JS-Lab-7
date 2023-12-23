@@ -14,9 +14,8 @@ function showSlide(index) {
     }
 
     slides[index].style.display = 'block';
-    slides[index].classList.remove('blur'); // Clear the center slide
+    slides[index].classList.remove('blur');
 
-    // Add blur to the previous and next slides
     if (index > 0) {
         slides[index - 1].style.display = 'block';
         slides[index - 1].classList.add('blur');

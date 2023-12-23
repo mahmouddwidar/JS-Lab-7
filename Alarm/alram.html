@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/alram.css" type="text/css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>ITI - Alram</title>
+</head>
+<body>
+    <div class="container">
+        <span class="clock">00:00:00</span>
+
+            <div class="select">
+                <select id="hours">
+                    <option value="hours">Hour</option>
+                </select>
+                <select id="mins">
+                    <option value="mins">Minutes</option>
+                </select>
+                <select id="secs">
+                    <option value="secs">Seconds</option>
+                </select>
+            </div>
+            <audio src="./media/alarm.mp3" id="aud"></audio>
+            <button class="btn">Set Alarm</button>
+    </div>
+
+
+    <script src="./js/alram.js"></script>
+</body>
+</html>
